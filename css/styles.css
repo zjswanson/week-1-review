@@ -3,11 +3,13 @@
 
 .panel-heading {
   background-image: url("img/tie_close.jpg");
-  background-color: none;
+  background-color: none
   }
-
+#home {
+  margin-top: 100px;
+}
 body{
-  background-image: radial-gradient(white,rgba(169,234,253,.2),rgba(169,234,253,.8));
+  background-image: radial-gradient(white, rgba(169,234,253,.2),rgba(169,234,253,.7));
 }
 
 #about img {
