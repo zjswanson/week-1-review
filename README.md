@@ -29,4 +29,5 @@ _Created in Atom text editor using html, css, and Bootstrap.  Special thanks to 
 
 
 
-Text and images Copyright (c) 2017 **_Zach Swanson_**
+Text and images Copyright (c) 2017 **_Zach Swanson_** with the following exceptions:
+Forest image Copyright (c) Tanager Photography.

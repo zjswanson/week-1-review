@@ -1,21 +1,41 @@
 
-.panel-heading {
-  background-image: url("img/tie_close.jpg");
-  background-color: transparent;
-  }
+
+.well {
+  background-image: url("../img/forest1.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+.panel-default > .panel-heading {
+  background-image: url("../img/forest1.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+.panel-default > a:visited,a:link,a:hover {
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+.navbar > a:visited,a:link,a:hover {
+  text-shadow: none;
+}
 
 body{
-  background-image: radial-gradient(white, rgba(169,234,253,.1),rgba(169,234,253,.7));
+  background-image: radial-gradient(rgba(162,177,143,0),rgba(162,177,143,.7));
   padding-bottom: 70px;
   padding-top: 20px;
 }
 
-
 span {
-  color: rgba(169,234,253,1);
+  color: rgba(15,135,255,1);
 }
-
-
 
 #featured .panel-heading {
   text-align: center;
@@ -26,5 +46,5 @@ span {
   width: 20%;
   border: 1px solid gray;
   padding: 2px;
-  margin: 10px;
+  margin: 20px;
 }
