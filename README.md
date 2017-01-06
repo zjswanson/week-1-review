@@ -1,8 +1,9 @@
 # TalentDump.zs
 
-#### Portfolio site for Zach Swanson 1.6.17
+#### Portfolio site for Zach Swanson
+#### created 1.6.17
 
-#### By Zach SWanson
+#### By Zach Swanson
 
 ## Description
 

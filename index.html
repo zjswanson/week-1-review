@@ -7,16 +7,20 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-default">
+      <div class="well" id="home">
         <h1>TalentDump.zs</h1>
         <h2>a repository for Zach Swanson's web dev projects</h2>
-        <ul class="nav nav-pills">
-          <li role="presentaiton"><a href="index.html">Home</a></li>
-          <li role="presentaiton"><a href="#intro">Intro</a></li>
-          <li role="presentaiton"><a href="#featured">Featured Projects</a></li>
-          <li role="presentaiton"><a href="#about">About Zach</a></li>
-          <li role="presentaiton"><a href="#archive">Project Archive</a></li>
-        </ul>
+      </div>
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <ul class="nav nav-pills">
+            <li role="presentaiton"><a href="#home">Home</a></li>
+            <li role="presentaiton"><a href="#intro">Intro</a></li>
+            <li role="presentaiton"><a href="#featured">Featured Projects</a></li>
+            <li role="presentaiton"><a href="#about">About Zach</a></li>
+            <li role="presentaiton"><a href="#archive">Project Archive</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
     <div class="container">
@@ -27,7 +31,6 @@
           </div>
           <div class="panel-body">
             <p>This is the portfolio site for aspiring developer, Zach Swanson.  Here you'll find a collection of his onging projects, info about the developer, and a window into his learning process.  Please enjoy!</p>
-            <h4>Index</h4>
             <ol>
               <li>Featured Projects: a subset of Zach's most interesting work</li>
               <li>About: Zach's background, interests, links</li>
@@ -37,47 +40,49 @@
         </div>
       </div>
       <div class="row" id="featured">
-        <div class="col-md-6">
+        <div class="col-md-6 col-featured">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Project 1</h2>
+              <a href="https://github.com/zjswanson/Resort-Project"><h2>Overpriced Island</h2></a>
             </div>
             <div class="panel-body">
-              <p>Description</p>
-              <p>Lessons Learned</p>
+              <p>Description: This was our first outing with <strong>CSS.</strong> The intent was to create a site with relatively simple <strong>HTML</strong> and play with different ways to use <strong>CSS</strong> to style the page.</p>
+              <p>Lessons Learned: I was lucky enough to work with a partner with much greater <strong>CSS</strong> expereince, <span>Ash Laidlaw</span>.  I learned a lot about the structure of <strong>CSS</strong> by watching him style the page.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-featured">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Project 2</h2>
+              <a href="https://github.com/zjswanson/Resort-Project"><h2>First Page!</h2></a>
             </div>
             <div class="panel-body">
-              <p>Description</p>
-              <p>Lessons Learned</p>
+              <p>Description: This was the poduct of our first day of coding.  I had only the barest <strong>HTML</strong> expereince, so this was my first time with the syntax and structure. I worked with <span>Stephanie Spears</span> and we were both relatively new to coding and working in the <strong>terminal</strong>. Overall, I was pleased with the output, given this was day one.</p>
+              <p>Lessons Learned: It was great pracice working with the basic syntax of <strong>HTML.</strong></p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-featured">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Project 3</h2>
+              <a href="https://github.com/zjswanson/Cupcake"><h2>Cupcake</h2></a>
             </div>
             <div class="panel-body">
-              <p>Description</p>
-              <p>Lessons Learned</p>
+              <p>Description: This was <span>Brendon Grubb</span> and my first time working with divs and floats in <strong>CSS</strong>. We tried to integrate all the days lessons on a single page, and quickly scaled the complexity past what we could easily handle.</p>
+              <p>Lessons Learned: We had a great time figuring out how to make elements float around each other and display, although the results weren't what we hoped for.  Our messt <strong>CSS</strong> file helped me appreciate the importance of elegant tabs!</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-featured">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Project 4</h2>
+              <a href="https://github.com/zjswanson/Wiki-Wiki"><h2>Wiki Wiki</h2></a>
             </div>
             <div class="panel-body">
-              <p>Description</p>
-              <p>Lessons Learned</p>
+              <p>Description: <span>Jason Brown</span> and I got our first taste of <strong>Bootstrap</strong> with this project.  We were tasked to imitate the landing page of Wikipedia (appearance, not functionality). We got some great practice, even if we tinkered with the code well past the point it was broken.</p>
+              <p>Lessons Learned: <strong>Bootstrap</strong> grids and class styling is amazing.  And huge.  The main thing i took from this project is a commitment to read lots more documentaiton.</p>
             </div>
           </div>
         </div>
@@ -89,9 +94,9 @@
           </div>
           <div class="panel-body">
             <img src="img/zach_1.jpg" alt="Photo of Zach">
-            <p class="lead">Zach, like many dev bootcamp students, has a diverse and non-linear career history.  Zach has had a lifelong interest in studing systems and logical interactions, and has finally made the commitment to jump full time into studying development.</p>
-            <p>After dropping out of his first attempt to get a degree in hard sciences, Zach found himself working in the service industry.  He quickly discovered a knack for working with people.  Over the next few years, he finished a B.S. in Economics and climbed the management ladder working in retail operations.  His interest in behavioral and business systems led him to transition to work in Human Resources.  He grew to manage HR for a retail unit with 200+ staff and eventually left as an HR business partner for a small business consultancy.</p>
-            <p>Although he loved the systems-thinking necessary for strategic HR work, Zach wanted to work in a field that was more open to creativity and exploration.  He chose web development because it lives on the border between technical and behavioral systems and allows interesing and creative work with both.</p>
+            <p class="lead">Zach, like many dev bootcamp students, has a diverse and non-linear career history.  Zach has had a lifelong interest in studing <em>systems and logical interactions</em>, and has finally made the commitment to jump full time into studying development.</p>
+            <p>After dropping out of his first attempt to get a degree in hard sciences, Zach found himself working in the service industry.  He quickly discovered a knack for working with people.  Over the next few years, he finished a B.S. in Economics and climbed the management ladder working in retail operations.  His interest in <em>behavioral and business systems</em> led him to transition to work in Human Resources.  He grew to manage HR for a retail unit with 200+ staff and eventually left as an HR business partner for a small business consultancy.</p>
+            <p>Although he loved the systems-thinking necessary for strategic HR work, Zach wanted to work in a field that was more open to <em>creativity and exploration</em>.  He chose web development because it lives on the border between <em>technical and behavioral</em> systems and allows interesing and creative work with both.</p>
             <p>Zach is a 4th genreation Portland native and has lived here almost his whole life.  He lives in north portland with his wife, two cats, and some chickens.  You can find him browsing in the Kenton library most weekends.</p>
             <h4>Interests</h4>
             <ul>
