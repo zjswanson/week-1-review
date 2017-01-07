@@ -26,8 +26,7 @@ _Questions, concerns, comments, and support request can be sent to the author at
 _Created in Atom text editor using html, css, and Bootstrap.  Special thanks to the bootstrap team for letting me borrow their hard work in css._
 
 ### License
-
-
+_Licensed under the MIT license_
 
 Text and images Copyright (c) 2017 **_Zach Swanson_** with the following exceptions:
 Forest image Copyright (c) Tanager Photography.

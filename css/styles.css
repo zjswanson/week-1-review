@@ -18,14 +18,16 @@
   text-shadow: 2px 2px 1px black;
 }
 
-.panel-default > a:visited,a:link,a:hover {
-  color: white;
+a.locala:link {
+  color: inherit;
   text-shadow: 2px 2px 1px black;
 }
 
 .navbar > a:visited,a:link,a:hover {
   text-shadow: none;
 }
+
+
 
 body{
   background-image: radial-gradient(rgba(162,177,143,0),rgba(162,177,143,.7));
